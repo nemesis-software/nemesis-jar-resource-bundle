@@ -21,6 +21,20 @@
     <description>
         An archive which contains templates for generating the necessary license files and notices for all Nemesis releases.
     </description>
+    <distributionManagement>
+        <repository>
+            <id>nemesis-repository</id>
+            <uniqueVersion>true</uniqueVersion>
+            <name>nemesis-repository-releases</name>
+            <url>https://repository.nemesis.io/artifactory/libs-release-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>nemesis-repository</id>
+            <uniqueVersion>false</uniqueVersion>
+            <name>nemesis-repository-snapshots</name>
+            <url>https://repository.nemesis.io/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
     <build>
         <plugins>
         <!--  Turn this into a lifecycle  -->
