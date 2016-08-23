@@ -13,6 +13,7 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.nemesis</groupId>
     <artifactId>nemesis-jar-resource-bundle</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -21,6 +22,12 @@
     <description>
         An archive which contains templates for generating the necessary license files and notices for all Nemesis releases.
     </description>
+
+    <scm>
+        <connection>scm:git:git@github.com:nemesis-software/nemesis-jar-resource-bundle.git</connection>
+        <developerConnection>scm:git:git@github.com:nemesis-software/nemesis-jar-resource-bundle.git</developerConnection>
+        <url>https://github.com/nemesis-software/nemesis-jar-resource-bundle.git</url>
+    </scm>
     <distributionManagement>
         <repository>
             <id>nemesis-repository</id>
@@ -35,6 +42,7 @@
             <url>https://repository.nemesis.io/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
+
     <build>
         <plugins>
         <!--  Turn this into a lifecycle  -->
