@@ -1,0 +1,21 @@
+##
+## nemesis Platform - NExt-generation Multichannel E-commerce SYStem
+##
+## Copyright (c) 2010 - 2016 nemesis
+## All rights reserved.
+##
+## This software is the confidential and proprietary information of nemesis
+## ("Confidential Information"). You shall not disclose such Confidential
+## Information and shall use it only in accordance with the terms of the
+## license agreement you entered into with nemesis.
+##
+
+#if ($projectName)$projectName#else${project.name}#end
+
+Copyright ${projectTimespan}#if($project.organization.name) $project.organization.name#else Nemesis Software Ltd.#end
+
+
+This product includes software developed at
+Nemesis Software Ltd. (http://nemesis.io/).
+
+

@@ -1,0 +1,9 @@
+/target
+*.iml
+.idea
+.factorypath
+.apt_generated/
+.classpath
+.project
+.settings/
+hs_err_pid*.log

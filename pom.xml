@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ nemesis Platform - NExt-generation Multichannel E-commerce SYStem
+  ~
+  ~ Copyright (c) 2010 - 2016 nemesis
+  ~ All rights reserved.
+  ~
+  ~ This software is the confidential and proprietary information of nemesis
+  ~ ("Confidential Information"). You shall not disclose such Confidential
+  ~ Information and shall use it only in accordance with the terms of the
+  ~ license agreement you entered into with nemesis.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.nemesis</groupId>
+    <artifactId>nemesis-jar-resource-bundle</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>Nemesis JAR Resource Bundle</name>
+    <description>
+        An archive which contains templates for generating the necessary license files and notices for all Nemesis releases.
+    </description>
+    <build>
+        <plugins>
+        <!--  Turn this into a lifecycle  -->
+            <plugin>
+                <artifactId>maven-remote-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>bundle</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
