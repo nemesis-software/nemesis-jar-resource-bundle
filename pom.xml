@@ -2,7 +2,7 @@
 <!--
   ~ nemesis Platform - NExt-generation Multichannel E-commerce SYStem
   ~
-  ~ Copyright (c) 2010 - 2016 nemesis
+  ~ Copyright (c) 2010 - 2020 nemesis
   ~ All rights reserved.
   ~
   ~ This software is the confidential and proprietary information of nemesis
@@ -28,7 +28,7 @@
         <developerConnection>scm:git:git@github.com:nemesis-software/nemesis-jar-resource-bundle.git</developerConnection>
         <url>https://github.com/nemesis-software/nemesis-jar-resource-bundle.git</url>
       <tag>HEAD</tag>
-  </scm>
+    </scm>
     <distributionManagement>
         <repository>
             <id>nemesis-repository</id>
@@ -43,6 +43,10 @@
             <url>https://repository.nemesis.io/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <properties>
+        <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+    </properties>
 
     <build>
         <plugins>
@@ -60,6 +64,7 @@
             <!--  Turn this into a lifecycle  -->
             <plugin>
                 <artifactId>maven-remote-resources-plugin</artifactId>
+                <version>1.7.0</version>
                 <executions>
                     <execution>
                         <goals>
