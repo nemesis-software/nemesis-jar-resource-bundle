@@ -16,7 +16,7 @@
 
     <groupId>io.nemesis</groupId>
     <artifactId>nemesis-jar-resource-bundle</artifactId>
-    <version>1.3.0.BUILD-SNAPSHOT</version>
+    <version>1.3.0.RELEASE</version>
 
     <name>Nemesis JAR Resource Bundle</name>
     <description>
@@ -27,7 +27,7 @@
         <connection>scm:git:git@github.com:nemesis-software/nemesis-jar-resource-bundle.git</connection>
         <developerConnection>scm:git:git@github.com:nemesis-software/nemesis-jar-resource-bundle.git</developerConnection>
         <url>https://github.com/nemesis-software/nemesis-jar-resource-bundle.git</url>
-      <tag>HEAD</tag>
+      <tag>1.3.0.RELEASE</tag>
     </scm>
     <distributionManagement>
         <repository>
